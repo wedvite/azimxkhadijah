@@ -60,6 +60,27 @@ $classic-primary: #d3e7e6;
 }
 // End Main Section
 
+#invitation {
+  .parents,
+  .couples,
+  .guest {
+    text-transform: capitalize;
+  }
+
+  .date,
+  .time,
+  .place {
+    .heading-2 {
+      text-transform: capitalize;
+    }
+  }
+
+  .guest-box.available {
+    background: $classic-primary;
+    color: $classic-secondary;
+  }
+}
+
 .footer-classic {
   background-image: -webkit-radial-gradient(
     50% 0%,

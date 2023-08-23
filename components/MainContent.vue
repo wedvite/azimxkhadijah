@@ -1,5 +1,5 @@
 <template>
-  <div v-if="true">
+  <div v-if="i.override_main">
     <!-- floating logged in button -->
     <div v-if="user" class="container floating-container">
       <router-link
@@ -35,7 +35,7 @@
       </router-link>
     </div>
     <div class="hero-body">
-      <div v-if="!i.override_main" class="container has-text-centered">
+      <div class="container has-text-centered">
         <!-- <img
 					data-aos="zoom-in"
 					data-aos-duration="1000"
@@ -106,16 +106,15 @@
           :class="'dates-' + i.theme"
           style="margin-top: 1rem"
         >
-          <!-- <div class="date-gregorian">{{ i.date.greg }}</div> -->
-
-          <div class="date-gregorian">
-            <span class="month">May</span>
+          <div v-if="!i.date.gregObj" class="date-gregorian">{{ i.date.greg }}</div>
+          <div v-else class="date-gregorian">
+            <span class="month">{{ i.date.gregObj.month }}</span>
             <span>
-              <span class="day">Sabtu</span>
-              <span class="day-number">6</span>
-              <span class="time">11.30AM</span>
+              <span class="day">{{ i.date.gregObj.day }}</span>
+              <span class="day-number">{{ i.date.gregObj.date }}</span>
+              <span class="time">{{ i.date.gregObj.time}}</span>
             </span>
-            <span class="year">2023</span>
+            <span class="year">{{ i.date.gregObj.year }}</span>
           </div>
           <div v-if="i.date.hijri" class="date-hijri">
             {{ i.date.hijri }}
@@ -199,6 +198,8 @@ export default {
 }
 
 .date-gregorian {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   .month,
   .year {
     display: block;

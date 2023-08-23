@@ -1,7 +1,7 @@
 
 // Demo
-export const project = 'azimkhady';
-export const wishlistDoc = "azimkhady";
+export const project = 'azimxkhadijah';
+export const wishlistDoc = "azimxkhadijah";
 export const projectTitle = 'Azim & Khadijah';
 
 export const allowedEmails = [

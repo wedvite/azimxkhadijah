@@ -1,6 +1,6 @@
 {
-  "theme": "custom",
-  "override_main": true,
+  "theme": "classic",
+  "override_main": false,
   "lang": "ms",
   "groom_or_bride_first": "groom",
   "section_status": {
@@ -18,28 +18,35 @@
   },
   "bride": {
     "fullname": "Siti Khadijah Binti Idris",
-    "nickname": "Asr"
+    "nickname": "Khadijah"
   },
   "parents": {
     "name": "Azhar Bin Ahmad Alwi",
     "andWith": "Uma Salmah Binti Abdul Kadir"
   },
   "date": {
-    "greg": "1 JULAI 2023",
-    "hijri": "12 ZULHIJJAH 1444H"
+    "greg": "30 September 2023",
+    "gregObj": {
+      "day": "Sabtu",
+      "date": "30",
+      "month": "September",
+      "year": "2023",
+      "time": "11.30AM"
+    },
+    "hijri": "15 Rabiulawal 1445H"
   },
   "time": {
-    "from": "12:00 PM",
+    "from": "11:30 AM",
     "to": "4:00 PM"
   },
   "address": {
-    "general": "4, Taman Alor Setar, Lorong Bantara 1",
-    "exact_html": "4, Taman Alor Setar, Lorong Bantara 1, Jalan Teluk Wanjah, 05200, Alor Setar, Kedah",
-    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.091932227585!2d100.37506597557567!3d6.118326427737927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b44c17e4e0d6d%3A0x20651ff4e2dd676b!2s4%2C%20Jalan%20Taman%20Alor%20Setar%2C%20Bandar%20Alor%20Setar%2C%2005200%20Alor%20Setar%2C%20Kedah!5e0!3m2!1sen!2smy!4v1685437691269!5m2!1sen!2smy\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
-    "gmaps_link": "https://goo.gl/maps/fkieEE6XmvTrQEZE7",
-    "waze_link": "https://ul.waze.com/ul?place=Ek80LCBKYWxhbiBUYW1hbiBBbG9yIFNldGFyLCBCYW5kYXIgQWxvciBTZXRhciwgMDUyMDAgQWxvciBTZXRhciwgS2VkYWgsIE1hbGF5c2lhIjASLgoUChIJbQ1OfsFESzAR6xf1Jgy46_8QBCoUChIJW83Pe8FESzARJwJGKDQsCXM&ll=6.11832110%2C100.37764090&navigate=yes"
+    "general": "Dewan Presint 8 Putrajaya",
+    "exact_html": "Dewan Kejiranan Presint 8 Putrajaya",
+    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.5701060908336!2d101.67951702592055!3d2.939100697037208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdb66b0c955555%3A0xd2d571c2c3e06705!2sDewan%20Serbaguna%20Presint%208!5e0!3m2!1sen!2smy!4v1692761839159!5m2!1sen!2smy\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+    "gmaps_link": "https://goo.gl/maps/evZwYHsUcWVpuUKCA",
+    "waze_link": "https://ul.waze.com/ul?preview_venue_id=66650141.666370342.410689&navigate=yes"
   },
-  "countdown_end": "2023-07-01 12:00 PM",
+  "countdown_end": "2023-09-30 11:30 AM",
   "main_section": {
   },
   "invitation_section": {
@@ -51,20 +58,24 @@
     "style": "col",
     "tentatives": [
       {
+        "time": "11:30 AM",
+        "details": "JAMUAN MAKAN BERMULA"
+      },
+      {
         "time": "12:00 PM",
-        "details": "Ketibaan Tetamu"
+        "details": "kETIBAAN PENGANTIN"
       },
       {
         "time": "4:00 PM",
-        "details": "Berakhirnya Majlis"
+        "details": "MAJLIS BERAKHIR"
       }
     ]
   },
   "doa_section": {
-    "text": "“Ya Allah Ya Rahman Ya Rahim, Berkatilah majlis perkahwinan ini. Limpahkanlah Baraqah dan Rahmat kepada kedua mempelai. Kurniakanlah mereka zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah,juga sempurnakanlah agama mereka dengan berkat ikatan ini. Aamin Ya'Rabal'Alamiin.”"
+    "text": "“Ya Allah Ya Rahman Ya Rahim, berkatilah majlis perkahwinan ini. Limpahkanlah baraqah dan rahmat kepada kedua mempelai. Kurniakanlah mereka kelak zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah,juga sempurnakanlah agama mereka dengan berkat ikatan ini.”"
   },
   "social_section": {
-    "ig_tags": "",
+    "ig_tags": "AzimKhady",
     "ig_signature": null,
     "carouselAutoplay": true,
     "images": [
@@ -77,6 +88,12 @@
         "name": "Azim",
         "_rel": "",
         "tel": 601096787928,
+        "whatsapp": true
+      },
+      {
+        "name": "Khadijah",
+        "_rel": "",
+        "tel": 601114699631,
         "whatsapp": true
       },
       {
@@ -102,7 +119,7 @@
   "ics": {
     "enabled": 1,
     "subject": "Walimatulurus - Azim & Khadijah",
-    "start": [2023, 7, 1, 12, 0],
-    "duration": { "hours": 4, "minutes": 0 }
+    "start": [2023, 9, 30, 11, 30],
+    "duration": { "hours": 4, "minutes": 30 }
   }
 }

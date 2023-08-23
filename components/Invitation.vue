@@ -8,7 +8,7 @@
 		/> -->
 		<img
 			data-aos="zoom-in"
-			src="~/assets/images/undangan.png"
+			src="~/assets/images/assalamualaikum.png"
 			alt="undangan"
 			style="width: 50%; margin-bottom: 1rem"
 		/>

@@ -2,20 +2,20 @@
 /*
 Default Font 
 */
-@font-face {
-    font-family: 'Agnes';
-    src: local('Agnes'),
-        url(~assets/fonts/agnes-bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Omnes';
-    src: local('Omnes'),
-        url(~assets/fonts/Omnes.ttf) format('truetype');
-}
-$font-url: 'https://fonts.googleapis.com/css?family=Lobster:wght@500&&display=swap';
+// @font-face {
+//     font-family: 'Agnes';
+//     src: local('Agnes'),
+//         url(~assets/fonts/agnes-bold.ttf) format('truetype');
+// }
+// @font-face {
+//     font-family: 'Omnes';
+//     src: local('Omnes'),
+//         url(~assets/fonts/Omnes.ttf) format('truetype');
+// }
+$font-url: 'https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Nothing+You+Could+Do&family=Poppins&display=swap';
 
-$cover-font: 'Agnes';
-$primary-font: 'Omnes', sans-serif;
-$secondary-font: 'Lobster', sans-serif;
-$countdown-font: 'Agnes';
+$cover-font: 'Nothing You Could Do', cursive;
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Poppins', sans-serif;
+$countdown-font: 'Bilbo Swash Caps', cursive;
 // $countdown-font: 'Alex Brush', cursive;
